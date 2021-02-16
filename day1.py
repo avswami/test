@@ -1,4 +1,4 @@
-#task 1
+#task 1.2
 names = ['john', 'jake', 'jack', 'jack','george', 'jenny', 'jason']
 unique=set(names)
 print("unique names:",unique)
