@@ -1,7 +1,7 @@
 #task 1.Make a generator to perform the same functionality of the iterator
 def GeneratorDemo(num):
     for x in num:
-        yield(x*X)
+        yield(x*x)
 Res= GeneratorDemo([10,20,30,40,50])
 print(Res)
 print(next(Res))
