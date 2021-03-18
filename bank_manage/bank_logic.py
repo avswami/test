@@ -161,7 +161,6 @@ def updateuser1(current_user,cust_id):
             cust1.username=request.json["username"]
             password=request.json["password"]
             cust1.password=generate_password_hash(password, method='sha256')
-            cust1.password=request.json["password"]
             cust1.address=request.json["address"]
             cust1.state=request.json["state"]
             cust1.country=request.json["country"]
